@@ -1,0 +1,331 @@
+{
+  "format": 1,
+  "restore": {
+    "e:\\GitHub\\dotnetTemplate\\dotnetTemplate\\ProjectTemplate\\WebApiTemplate\\WebApiTemplate.csproj": {}
+  },
+  "projects": {
+    "e:\\GitHub\\dotnetTemplate\\dotnetTemplate\\ProjectTemplate\\Odin.Plugs.V5\\Odin.Plugs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\GitHub\\dotnetTemplate\\dotnetTemplate\\ProjectTemplate\\Odin.Plugs.V5\\Odin.Plugs.csproj",
+        "projectName": "Odin.Plugs",
+        "projectPath": "e:\\GitHub\\dotnetTemplate\\dotnetTemplate\\ProjectTemplate\\Odin.Plugs.V5\\Odin.Plugs.csproj",
+        "packagesPath": "C:\\Users\\odinsam\\.nuget\\packages\\",
+        "outputPath": "e:\\GitHub\\dotnetTemplate\\dotnetTemplate\\ProjectTemplate\\Odin.Plugs.V5\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\odinsam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AlipaySDKNet.Standard": {
+              "target": "Package",
+              "version": "[4.4.37, )"
+            },
+            "AspectCore.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "AspectCore.Extensions.Autofac": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "AspectCore.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "AspectCore.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Consul": {
+              "target": "Package",
+              "version": "[1.6.10.1, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "LitJson": {
+              "target": "Package",
+              "version": "[0.17.0, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Redis": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            },
+            "MongoDB.Driver.GridFS": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "System.Security.Cryptography.Algorithms": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "Unicorn.AspNetCore": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "XC.RSAUtil": {
+              "target": "Package",
+              "version": "[1.3.6, )"
+            },
+            "aliyun-net-sdk-geoip": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "jieba.NET": {
+              "target": "Package",
+              "version": "[0.42.2, )"
+            },
+            "runtime.osx.10.10-x64.CoreCompat.System.Drawing": {
+              "target": "Package",
+              "version": "[5.8.64, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "e:\\GitHub\\dotnetTemplate\\dotnetTemplate\\ProjectTemplate\\WebApiTemplate\\WebApiTemplate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\GitHub\\dotnetTemplate\\dotnetTemplate\\ProjectTemplate\\WebApiTemplate\\WebApiTemplate.csproj",
+        "projectName": "WebApiTemplate",
+        "projectPath": "e:\\GitHub\\dotnetTemplate\\dotnetTemplate\\ProjectTemplate\\WebApiTemplate\\WebApiTemplate.csproj",
+        "packagesPath": "C:\\Users\\odinsam\\.nuget\\packages\\",
+        "outputPath": "e:\\GitHub\\dotnetTemplate\\dotnetTemplate\\ProjectTemplate\\WebApiTemplate\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\odinsam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "e:\\GitHub\\dotnetTemplate\\dotnetTemplate\\ProjectTemplate\\Odin.Plugs.V5\\Odin.Plugs.csproj": {
+                "projectPath": "e:\\GitHub\\dotnetTemplate\\dotnetTemplate\\ProjectTemplate\\Odin.Plugs.V5\\Odin.Plugs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

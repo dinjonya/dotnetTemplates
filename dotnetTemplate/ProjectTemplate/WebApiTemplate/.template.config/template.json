@@ -1,0 +1,13 @@
+{
+	"author": "odinsam", //必须
+	"classifications": ["Web/WebAPI"], //必须，这个对应模板的Tags
+	"name": "Odinsam Web Api", //必须，这个对应模板的Templates
+	"identity": "OdinsamWebApi", //可选，模板的唯一名称
+	"shortName": "odin-webapi", //必须，这个对应模板的Short Name
+	"tags": {
+		"language": "C#",
+		"type": "project"
+	},
+	"sourceName": "WebApiTemplate", // 可选，要替换的名字
+	"preferNameDirectory": true // 可选，添加目录
+}

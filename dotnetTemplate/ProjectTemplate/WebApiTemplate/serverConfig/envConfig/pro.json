@@ -1,0 +1,17 @@
+{
+	"ProjectConfigOptions": {
+		"DbEntity": {
+			"ConnectionString": "Server=mysqlIp;database=dbName;uid=userName;pwd=password",
+			"InitDb": true
+		},
+		"MongoDb": {
+			"Enable": true,
+			"MongoConnection": "mongodb://username:password@mongoip:mongoPort/?authSource=databasename",
+			"Database": "collectionName"
+		},
+		"RedisConfig": {
+			"Connection": "redisIp,abortConnect=false,password=redisPassword,defaultdatabase=默认启用的数据库",
+			"InstanceName": "redis:Prefix"
+		}
+	}
+}

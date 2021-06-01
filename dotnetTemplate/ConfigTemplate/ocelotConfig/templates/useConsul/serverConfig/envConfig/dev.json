@@ -1,0 +1,62 @@
+{
+	"Routes": [
+		{
+			"DownstreamPathTemplate": "/todos/{id}",
+			"DownstreamScheme": "https",
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "jsonplaceholder.typicode.com",
+					"Port": 443
+				}
+			],
+			"UpstreamPathTemplate": "/todos/{id}",
+			"UpstreamHttpMethod": ["Get"],
+			"RouteIsCaseSensitive": false,
+			"Priority": 0,
+			"Key": "odinsam-1",
+			"RateLimitOptions": {
+				"ClientWhitelist": [],
+				"EnableRateLimiting": false,
+				"Period": "1s",
+				"PeriodTimespan": 5,
+				"Limit": 1
+			},
+			"FileCacheOptions": { "TtlSeconds": 15, "Region": "somename" },
+			"LoadBalancerOptions": {
+				"Type": "LeastConnection"
+			},
+			"QoSOptions": {
+				"ExceptionsAllowedBeforeBreaking": 3,
+				"DurationOfBreak": 5,
+				"TimeoutValue": 5000
+			}
+		},
+		{
+			"DownstreamPathTemplate": "/saveApiRecord",
+			"DownstreamScheme": "https",
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "jsonplaceholder.typicode.com",
+					"Port": 443
+				}
+			],
+			"UpstreamPathTemplate": "/saveApiRecord",
+			"UpstreamHttpMethod": ["Get"],
+			"RouteIsCaseSensitive": false,
+			"Priority": 0,
+			"Key": "odinsam-2"
+		}
+	],
+	"GlobalConfiguration": {
+		"ServiceDiscoveryProvider": {
+			"Host": "127.0.0.1",
+			"Port": 9500
+		},
+		"RateLimitOptions": {
+			"DisableRateLimitHeaders": false,
+			"QuotaExceededMessage": "Customize Tips!",
+			"HttpStatusCode": 999,
+			"ClientIdHeader": "Test"
+		}
+	}
+}
